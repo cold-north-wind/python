@@ -6,3 +6,11 @@ void sum_a_b(int a,int b)
     return sum
 }
 
+void for_exa(*arg)
+{
+    char *index = *arg;
+    while(index != '\n')
+    {
+        print(*index)
+    }
+}
