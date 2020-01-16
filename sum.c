@@ -12,5 +12,7 @@ void for_exa(*arg)
     while(index != '\n')
     {
         print(*index)
+        result = sum_a_b(*index,*index++)
+        print(result)
     }
 }
